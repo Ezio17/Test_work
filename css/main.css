@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	background-color: black;
+}
+
+main {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/background.png");
+	margin: auto;
+}
+
+section {
+	width: 750px;
+	height: 600px;
+	border: 5px solid #d0efe7;
+	background-color: white;
+	border-radius: 20px;
+	position: relative;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+    
+}
+
+h1{
+   text-align: center;
+}
+
+#country {
+	width: 135px;
+	margin-left: 16px;
+}
+
+form {
+	width: 500px;
+	height: 100%;
+	margin: auto;
+}
+
+#birthday{
+	margin-left: 12px;
+}
+
+input {
+	width: 135px;
+	margin-top: 20px;
+}
+
+select {
+	margin-top: 20px;
+}
+
+.gender {
+	width: 30px;
+}
+
+#email {
+	margin-left: 31px;
+}
+
+#address {
+	margin-left: 15px;
+}
+
+#note{
+	position: relative;
+	top:-20px;
+	left:10px;
+}
+
+#notes {
+	margin-left: 17px;
+}
+
+#submit {
+	position: relative;
+	left:50%;
+	transform: translate(-50%,0);
+	top:10px;
+	width: 70px;
+}
+
+#content {
+	margin: auto;
+	width: 223px;
+}
+
+#content label:before
+{
+	position: relative;
+	right: 5px;
+	top: 2px;
+    content: "*";
+}
+
+.textarea:before {
+	content: none;
+}
+
+.border {
+	border:1px solid red;
+}
+
+#last_name {
+	margin-left: 1px;
+}
+
+#password {
+	margin-left: 6px;
+}
+
+footer {
+	margin: auto;
+	width: 380px;
+}
+
+.text, .text_2, .text_3, .text_4, .text_5, .text_6 {
+	position: relative;
+	font-size:12px;
+	color:red;
+	left: 85px;
+}
+
+.line {
+	display: inline-block;
+}
+
